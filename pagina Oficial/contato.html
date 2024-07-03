@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/contato.css">
+    <title>Contato</title>
+   
+</head>
+<body>
+<!--foto da logo-->
+<header>
+    <h1>
+        <a class="a" style="font-size: 20px;" href="inicial.html">
+         <img src="fotos/logo.png" alt="logo">
+        </a>
+    </h1>
+</header>
+<!--barra-->
+<main>
+    <header class="cabeça2">
+        <div class="past">
+            <section>
+                <a style="font-size: 20px;" href="inicial.html">Home</a>
+            </section>
+                <section>
+                    <a style="font-size: 20px;" href="sobre.html">Sobre</a>
+                </section>
+                    <section>
+                        <a style="font-size: 20px;" href="peu.html">PEU</a>
+                    </section>
+                        <section>
+                            <a style="font-size: 20px;" href="membros.html">Membros</a>
+                        </section>
+                            <section>
+                                <a style="font-size: 20px;" href="ações.html">Ações</a>
+                            </section>
+                                <section>
+                                    <a style="font-size: 20px;" href="notícias.html">Notícias</a>
+                                </section>
+                                    <section>
+                                        <a style="font-size: 20px;" href="votação.html">Votação</a>
+                                    </section>
+                                        <section>
+                                            <a style="font-size: 20px;" href="contato.html">Contato</a>
+                                        </section>                    
+        </div>
+    </header>
+</main>
+
+<!--estrutura para receber mensagens-->
+<br>
+<br>
+
+
+<div class="fundo">
+
+<div class="tudo">
+    <div class="formula">
+        
+        <form id="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="telefone">Proposta:</label>
+            <input type="tel" id="telefone" name="telefone"><br><br>
+<br>
+<!--botao-->
+    <button type="button" class="btn-primary" id="botaoEnviar" disabled onclick="enviarFormulario()">Enviar</button>
+
+</form>
+<br>
+<button onclick="removerDados()">Remover Dados</button>
+
+
+</div>
+
+<!--foto + título-->
+    <div class="card" style="width: 18rem;">
+        <img class="cardimg" src="fotos/telefone.jpeg" alt="senhorB" >
+            <div class="cardbody">
+                <p class="cardtext">Nos envie suas ideias!</p>
+            </div>
+    </div>
+</div>
+
+
+</div>
+
+<br>
+<br>
+<!--rodapé-->
+<footer>
+    <p>© 2024 Bagre Da Silva Presidente.</p>
+</footer>
+
+</body>
+</html>
+<script src="JavaScript/localstorage.js"></script>
+<script src="JavaScript/contato.js"></script>

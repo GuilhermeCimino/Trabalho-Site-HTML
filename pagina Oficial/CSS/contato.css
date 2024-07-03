@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color:#183A37;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color:#183A37;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    bottom: 0;
+}
+
+.past { 
+    display: flex; 
+    padding: auto;
+    width: 100%;
+    justify-content: center; 
+}
+
+.card {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    margin: 20px;
+    margin-left: 50%;
+    flex-direction: column;
+}
+
+.cabeça2 {
+background-color: rgb(8, 29, 36);
+} 
+
+.past a {
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tudo{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  
+   
+}
+
+.cardimg{
+    width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.formula{
+    margin-top: 10%;
+    margin-left: 10%;
+    color: white;
+}
+
+.cardbody{
+width: 128%;
+color: white;
+}
+
+.fundo{
+    background-color: rgb(8, 29, 36);
+}
+
+
+
+
+
+form {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para os campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Para incluir padding e borda na largura total */
+  }
+  
+  /* Estilo para o botão de envio */
+  .btn-primary[type="submit"] {
+    background-color: #7c0c0c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Mudar a cor do botão quando o mouse passar por cima */
+  .btn-primary[type="submit"]:hover {
+    background-color: #990606;
+  }
+  
+  /* Estilo para o rótulo */
+  label {
+    font-weight: bold;
+  }
+
+  .cardtext{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+  }
+
+
+
+  
+
+  /* Estilo básico para o formulário */
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input:focus {
+    border-color: #d30d0d;
+}
+
+/* Estilo para o botão */
+.btn-primary {
+    background-color: #7c0c0c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.btn-primary:hover:enabled {
+    background-color: #990606;
+}
+
+.btn-primary:focus:enabled {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

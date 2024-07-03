@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/votos.css">
+    <link rel="stylesheet" href="css/botao.css">
+    <link rel="stylesheet" href="css/votação.css">
+    <link rel="stylesheet" href="css/msgcandi.css">
+    <title>Votação</title>    
+</head>
+<body>
+<!--foto da logo-->
+<header>
+    <h1>
+        <a class="a" style="font-size: 20px;" href="inicial.html">
+        <img src="fotos/logo.png" alt="logo">
+    </a>
+    </h1>
+</header>
+<!--barra-->
+<header class="cabeça2">
+    <main>
+        <div class="past">
+            <section>
+                <a style="font-size: 20px;" href="inicial.html">Home</a>
+            </section>
+                <section>
+                    <a style="font-size: 20px;" href="sobre.html">Sobre</a>
+                </section>
+                    <section>
+                        <a style="font-size: 20px;" href="peu.html">PEU</a>
+                    </section>
+                        <section>
+                            <a style="font-size: 20px;" href="membros.html">Membros</a>
+                        </section>
+                            <section>
+                                <a style="font-size: 20px;" href="ações.html">Ações</a>
+                            </section>
+                                <section>
+                                    <a style="font-size: 20px;" href="notícias.html">Notícias</a>
+                                </section>
+                                    <section>
+                                        <a style="font-size: 20px;" href="votação.html">Votação</a>
+                                    </section>
+                                        <section>
+                                            <a style="font-size: 20px;" href="contato.html">Contato</a>
+                                        </section> 
+                                                 
+        </div>
+    </main>
+</header>
+<!--título-->
+<div class="seuvoto">
+    <h1>
+    Vote no seu candidato favorito
+    </h1>   
+</div>
+<!--fotos dos candidatos + botão-->
+<div class="fotoscandito">
+   
+    <div class="fotoscandi1"> <h1 class="t1">Bagre Da Silva</h1><img src="fotos/senhorB.jpeg" alt="Bagre120">
+        <button class="vote-button" onclick="submitVote('Option 1')">(PEU 37)</button>
+    </div>
+
+    <div class="fotoscandi2"> <h1 class="t1">Luiz Lula</h1> <img src="fotos/lula.jpeg" alt="lula">
+        <button class="vote-button" onclick="submitVote('Option 2')">(PLT 14)</button> 
+    </div>
+
+    <div class="fotoscandi3"> <h1 class="t1">Tilápia Messias</h1> <img src="fotos/messias.jpeg" alt="messias">    
+        <button class="vote-button" onclick="submitVote('Option 3')">(PMI 23)</button>
+    </div>
+</div>
+
+
+<br>
+<br>
+<div class="candidato">
+<div id="lista-candidatos"></div>
+</div>
+<br>
+<br>
+<br>
+
+<!--resultado da contagem dos votos-->
+<h2 class="resultado">Resultados da Simulação</h2>
+<div class="results">
+    <p class="bagretexto">Bagre da Silva: <span id="count1">0</span> votos</p>
+    <p class="lulatexto">Luiz Lula: <span id="count2">0</span> votos</p>
+    <p class="messiastexto">Tilápia Messias: <span id="count3">0</span> votos</p>
+</div>
+
+<div class="ch">
+    <h2>Contagem Regressiva para a Eleição</h2>
+        <p id="countdown"></p>
+</div>
+
+
+
+<!--link do script-->
+<script src="JavaScript/votos.js"></script>
+<script src="JavaScript/contagem.js"></script>
+<script src="JavaScript/foreacharray.js"></script>
+<script src="JavaScript/passpa.js"></script>
+
+<!--rodapé-->
+<footer>
+    <p>© 2024 Bagre Da Silva Presidente.</p>
+</footer>
+
+
+</body>
+</html>
